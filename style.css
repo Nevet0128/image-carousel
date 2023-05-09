@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fd6;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+
+  background-color: #666;
+  height: 500px;
+  width: 80%;
+
+  margin: auto;
+}
+
+#main-container img {
+  align-self: center;
+
+  height: inherit;
+  width: auto;
+  max-width: inherit;
+  margin: auto;
+}
